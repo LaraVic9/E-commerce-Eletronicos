@@ -1,6 +1,6 @@
 #  E-commerce de Eletrônicos
 
-Este projeto é um e-commerce de eletrônicos, desenvolvido com **React.js**. A aplicação é um e-commerce de eletrônicos com foco no front-end. Não utiliza um backend complexo com apenas um consumo de uma API simples.
+Este projeto é um e-commerce de eletrônicos, desenvolvido com **React.js**. A aplicação é um e-commerce com foco no front-end. Não utiliza um backend complexo com apenas um consumo de uma API simples.
 
 ##  Funcionalidades
 
