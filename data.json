@@ -1,0 +1,8 @@
+{
+    "products": [
+      { "id": 1, "name": "JBL Tune 520BT", "categoryId": 1 }
+    ],
+    "categories": [
+      { "id": 1, "name": "Headphone" }
+    ]
+  }
