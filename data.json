@@ -1,8 +1,36 @@
 {
-    "products": [
-      { "id": 1, "name": "JBL Tune 520BT", "categoryId": 1 }
-    ],
-    "categories": [
-      { "id": 1, "name": "Headphone" }
-    ]
-  }
+  "products": [
+    {
+      "id": "1",
+      "name": "JBL Tune 520BT",
+      "categoryId": 1
+    },
+    {
+      "id": "6aa8",
+      "name": "AKG N9 Hybrid",
+      "categoryId": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Headphone"
+    },
+    {
+      "id": "3634",
+      "name": "Celular"
+    },
+    {
+      "id": "e88f",
+      "name": "Perifericos"
+    },
+    {
+      "id": "b72d",
+      "name": "Televisão"
+    },
+    {
+      "id": "ff74",
+      "name": "Notebook"
+    }
+  ]
+}
