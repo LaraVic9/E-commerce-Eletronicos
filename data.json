@@ -1,36 +1,129 @@
 {
   "products": [
     {
-      "id": "1",
       "name": "JBL Tune 520BT",
-      "categoryId": 1
+      "categoryId": 1,
+      "image": "headphone.png",
+      "price": 279.90,
+      "id": "1"
     },
     {
-      "id": "6aa8",
       "name": "AKG N9 Hybrid",
-      "categoryId": 1
+      "categoryId": 1,
+      "image": "headphone.png",
+      "price": 349.90,
+      "id": "6aa8"
+    },
+    {
+      "name": "Sony WH-1000XM4",
+      "categoryId": 1,
+      "image": "headphone.png",
+      "price": 1199.99,
+      "id": "63a3"
+    },
+    {
+      "name": "Bose QuietComfort 45",
+      "categoryId": 1,
+      "image": "headphone.png",
+      "price": 1299.99,
+      "id": "5911"
+    },
+    {
+      "name": "iPhone 13",
+      "categoryId": 3634,
+      "image": "celular.png",
+      "price": 4499.00,
+      "id": "b317"
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "categoryId": 3634,
+      "image": "celular.png",
+      "price": 3299.00,
+      "id": "720e"
+    },
+    {
+      "name": "Google Pixel 6",
+      "categoryId": 3634,
+      "image": "celular.png",
+      "price": 2999.90,
+      "id": "29bc"
+    },
+    {
+      "name": "Logitech G203 LIGHTSYNC RGB",
+      "categoryId": "e88f",
+      "image": "mouse.png",
+      "price": 139.90,
+      "id": "4f79"
+    },
+    {
+      "name": "Razer DeathAdder V2",
+      "categoryId": "e88f",
+      "image": "mouse.png",
+      "price": 249.90,
+      "id": "f24f"
+    },
+    {
+      "name": "SteelSeries Rival 600",
+      "categoryId": "e88f",
+      "image": "mouse.png",
+      "price": 319.00,
+      "id": "7e8a"
+    },
+    {
+      "name": "Samsung QLED 65",
+      "categoryId": "b72d",
+      "image": "tv.png",
+      "price": 4799.00,
+      "id": "fc3c"
+    },
+    {
+      "name": "LG OLED55CXPUA",
+      "categoryId": "b72d",
+      "image": "tv.png",
+      "price": 5599.00,
+      "id": "a53b"
+    },
+    {
+      "name": "Dell XPS 15",
+      "categoryId": "ff74",
+      "image": "notebook.png",
+      "price": 8999.00,
+      "id": "13f7"
+    },
+    {
+      "name": "HP Spectre x360",
+      "categoryId": "ff74",
+      "image": "notebook.png",
+      "price": 8499.00,
+      "id": "16dd"
     }
   ],
   "categories": [
     {
       "id": "1",
-      "name": "Headphone"
+      "name": "Headphone",
+      "image": "https://cdn-icons-png.flaticon.com/512/727/727240.png"
     },
     {
       "id": "3634",
-      "name": "Celular"
+      "name": "Celular",
+      "image": "https://cdn-icons-png.flaticon.com/512/747/747376.png"
     },
     {
       "id": "e88f",
-      "name": "Perifericos"
+      "name": "Perifericos",
+      "image": "https://cdn-icons-png.flaticon.com/512/2210/2210153.png"
     },
     {
       "id": "b72d",
-      "name": "Televisão"
+      "name": "Televisão",
+      "image": "https://cdn-icons-png.flaticon.com/512/809/809042.png"
     },
     {
       "id": "ff74",
-      "name": "Notebook"
+      "name": "Notebook",
+      "image": "https://cdn-icons-png.flaticon.com/512/1039/1039540.png"
     }
   ]
 }

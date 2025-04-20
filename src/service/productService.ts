@@ -11,11 +11,11 @@ export const createProduct = async (product: Omit<Product, 'id'>): Promise<Produ
   return res.data;
 };
 
-export const updateProduct = async (id: number, product: Partial<Product>): Promise<Product> => {
+export const updateProduct = async (id: number | string, product: Partial<Product>): Promise<Product> => {
   const res = await api.put(`/products/${id}`, product);
   return res.data;
 };
 
-export const deleteProduct = async (id: number): Promise<void> => {
+export const deleteProduct = async (id: number | string): Promise<void> => {
   await api.delete(`/products/${id}`);
 };

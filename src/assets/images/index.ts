@@ -1,0 +1,5 @@
+export { default as celular } from './celular.png'
+export { default as notebook } from './notebook.png'
+export { default as mouse } from './mouse.png'
+export { default as tv } from './tv.png'
+export { default as headphone } from './headphone.png'

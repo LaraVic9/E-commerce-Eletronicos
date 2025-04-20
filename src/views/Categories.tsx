@@ -8,6 +8,8 @@ import {
 const Categories = () => {
   const [categories, setCategories] = useState<Category[]>([]);
   const [name, setName] = useState('');
+  const [image, setImage] = useState('');
+
 
   const fetchCategories = async () => {
     const data = await getCategories();
@@ -16,8 +18,9 @@ const Categories = () => {
 
   const handleCreate = async () => {
     if (!name.trim()) return;
-    await createCategory({ name });
+    await createCategory({ name, image });
     setName('');
+    setImage('');
     fetchCategories();
   };
 

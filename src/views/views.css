@@ -1,0 +1,18 @@
+.gradient-background {
+    background: linear-gradient(to bottom, #a163ff, #5a30b5);
+    height: 220px;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+.text {
+  font-size: 15px;
+  color: #6c6c6c;
+}
+
+.cart {
+  background: linear-gradient(to bottom, #a163ff, #5a30b5);
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
