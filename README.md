@@ -35,3 +35,17 @@ npm install
 npx json-server --watch db.json --port 3001
 npm run dev
 ```
+
+
+### --- AVISO ----
+
+Por enquanto apenas as seguintes rotas estao com layout em andamento
+inicial ('\')
+produtos ('\produtos')
+
+As seguintes rotas tem a funcionalidades, mas nao tem layout pronto:
+
+adicionar produto ('/produtos/novo')
+editar produto ('/produtos/editar/:id')
+adicionar categoria ('/categorias/novo')
+editar categoria ('/categorias/editar/:id')
