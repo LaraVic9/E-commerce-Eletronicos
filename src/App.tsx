@@ -1,18 +1,15 @@
-// src/App.tsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './views/Home';
-import Products from './views/Products';
 import { Category } from './script';
-import Categories from './views/Categories';
-import ProductFilter from './views/ProductsFilter';
-import EditProduct from './views/EditProduto';
 import { cart, heart, search, truck, card, box, cart_white, phone_svg, laptop_svg, tv_svg, mouse_svg, headphone_svg } from './assets/icons'
 import { two_headphone, headphone, mouse, banner, logo, headphone_lado, celular, tv, notebook, headphone_preto, banner_2, visa, mastercard, paypal } from './assets/images';
+
+
+import { Home, AddProduct, AddCategory, EditCategory, EditProduct, ProductsFilter }  from './views'
 
 function App() {
   return (
     <>
-    <div>
+    <div className=''>
        {/* nav */}
         <nav className="navbar navbar-expand-lg bg-light fixed-top px-4 justify-content-between">
             <div className='d-flex'>
@@ -24,14 +21,12 @@ function App() {
               <div className="collapse navbar-collapse">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Início</a>
+                    <a className="nav-link" href="/">Início</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Produtos</a>
+                    <a className="nav-link" href="/produtos">Produtos</a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">Contato</a>
-                  </li>
+                 
                 </ul>
               </div>
             </div>
@@ -53,10 +48,11 @@ function App() {
         <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/produtos" element={<ProductFilter />} />
-          <Route path="/produtos/novo" element={<Products />} />
+          <Route path="/produtos" element={<ProductsFilter />} />
+          <Route path="/produtos/novo" element={<AddProduct />} />
           <Route path="/produtos/editar/:id" element={<EditProduct />} />
-          <Route path="/categorias/novo" element={<Categories />} />
+          <Route path="/categorias/novo" element={<AddCategory />} />
+          <Route path="/categorias/editar/:id" element={<EditCategory />} />
         </Routes>
       </Router>
 
@@ -110,7 +106,7 @@ function App() {
             
           </div>
 
-          {/* Footer Bottom */}
+         
           <div className="border-t border-gray-300 py-6 text-center text-sm text-gray-600 flex flex-col md:flex-row justify-between items-center px-6 max-w-6xl mx-auto">
             <p>EcommerceEletronics.co © 2000-2023, Todos os direitos reservados</p>
             <div className="flex gap-3 mt-4 md:mt-0">
@@ -119,10 +115,9 @@ function App() {
               <img src={paypal} alt="PayPal" className="mx-2 h-6" height='30px' />
             </div>
           </div>
-          </div>
+        </div>
           
-        </footer>
-        
+        </footer>   
     </div>
     
       

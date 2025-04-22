@@ -1,0 +1,6 @@
+export { default as AddProduct } from './AddProduct'
+export { default as EditProduct } from './EditProduct'
+export { default as ProductsFilter } from './ProductsFilter'
+export { default as AddCategory } from './AddCategory'
+export { default as EditCategory } from './EditCategory'
+export { default as Home } from './Home'

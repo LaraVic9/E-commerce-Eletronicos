@@ -5,6 +5,7 @@ export interface Product {
     categoryId: number | string;
     image: string;
     price: number;
+    status: 'ativo' | 'inativo';
   }
 
 export interface Category {
@@ -12,5 +13,6 @@ export interface Category {
     name: string;
     image: string;
     svg:string;
+    status: 'ativo' | 'inativo';
   }
   

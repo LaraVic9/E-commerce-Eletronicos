@@ -4,9 +4,10 @@ import {
   getCategories,
   createCategory,
 } from '../service/categoryService';
-import {  phone_svg, laptop_svg, tv_svg, mouse_svg, headphone_svg } from '../assets/icons'
+import { phone_svg, laptop_svg, tv_svg, mouse_svg, headphone_svg } from '../assets/icons'
+import './views.css'
 
-const availableImages = [
+const SvgImages = [
   { id: 'headphone_svg', src: headphone_svg },
   { id: 'phone_svg', src: phone_svg },
   { id: 'mouse_svg', src: mouse_svg },
@@ -21,16 +22,28 @@ const Categories = () => {
   const [selectedSvg, setSelectedSvg] = useState('headphone_svg'); 
 
   const handleCreate = async () => {
-    if (!name.trim()) return; 
-    await createCategory({ name, image, svg: selectedSvg });
-    setName('');
-    setImage('');
-    setSelectedSvg('headphone_svg'); 
-    alert('Categoria adicionada com sucesso!');
+    if (!name.trim()) return;
+
+    try {
+      await createCategory({ 
+        name, 
+        image, 
+        svg: selectedSvg, 
+        status: 'ativo'  
+      });
+      
+      setName('');
+      setImage('');
+      setSelectedSvg('headphone_svg');
+      alert('Categoria adicionada com sucesso!');
+    } catch (error) {
+      console.error('Erro ao adicionar categoria:', error);
+      alert('Erro ao adicionar categoria. Tente novamente.');
+    }
   };
 
   return (
-    <div>
+    <div className='marginTop'>
       <h2>Adicionar Categoria</h2>
       <div>
         <input
@@ -52,7 +65,7 @@ const Categories = () => {
       <div>
         <h3>Escolha um ícone</h3>
         <div style={{ display: 'flex', gap: '10px' }}>
-          {availableImages.map((img) => (
+          {SvgImages.map((img) => (
             <div
               key={img.id}
               style={{

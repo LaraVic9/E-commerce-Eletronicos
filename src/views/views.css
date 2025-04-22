@@ -1,3 +1,12 @@
+/* app */
+.container-fluid {
+  width: 100vh;
+}
+
+.marginTop {
+  padding-top: 50px;
+}
+
 /* product filter */
 
 .gradient-background {
@@ -26,6 +35,10 @@
 
 .card {
   min-width: 250px;
+}
+
+.container {
+  width: 100vw;
 }
 
 /* home **/

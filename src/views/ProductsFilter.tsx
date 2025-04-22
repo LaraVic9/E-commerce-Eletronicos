@@ -70,9 +70,9 @@ const ProductFilter = () => {
 
 
   return (
-    <div className=" mt-4 p-5">
+    <div className=" mt-4 p-5 flex justify-content-center align-content-center ">
 
-      <div className="row mt-4 flex justify-content-center">
+      <div className="row mt-4 flex justify-content-center align-content-center">
         
         {/* categorias */}
         <div className="col-md-2 border rounded p-3 filtros">

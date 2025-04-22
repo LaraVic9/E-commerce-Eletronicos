@@ -30,7 +30,8 @@ const Products = () => {
         name: newProduct, 
         categoryId: newCategory, 
         image: newImage, 
-        price: Number(newPrice)
+        price: Number(newPrice),
+        status: 'ativo'  
       });
 
       setNewProduct('');
@@ -49,7 +50,7 @@ const Products = () => {
 
   return (
     <>
-      <div className="container mt-4">
+      <div className="container mt-5">
         <h2>Produtos</h2>
 
         <div className="mb-3">
