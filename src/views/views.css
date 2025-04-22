@@ -1,3 +1,5 @@
+/* product filter */
+
 .gradient-background {
     background: linear-gradient(to bottom, #a163ff, #5a30b5);
     height: 220px;
@@ -13,6 +15,92 @@
   background: linear-gradient(to bottom, #a163ff, #5a30b5);
   height: 40px;
   width: 40px;
-  border-radius: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filtros {
+  min-width: 240px;
+
+}
+
+.card {
+  min-width: 250px;
+}
+
+/* home **/
+
+.promo-banner {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  margin-top: -22px;
+}
+
+.banner-wrapper {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-text {
+  max-width: 80%;
+}
+
+.banner-text h1 span {
+  color: #ffc107;
+}
+
+.banner-text button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar .nav-link {
+  color: black;
+  margin-left: 1rem;
+  font-weight: 400;
+ 
+}
+
+.banner {
+  width: 100%;
+}
+
+.destaque {
+  width: 382px;
+  height: 369px;
+}
+
+.text-container {
+  color: #ffffff;
+  margin-top: -30px;
+}
+
+.servico-img {
+  width: 20%;
+  height: auto;
+}
+
+.margin {
+  margin-top: 100px;
+}
+
+.categoria-bg {
+  background-color: #7263C8;
+  width: 200px;
+  height: 180px;
+  cursor: pointer;
+}
+
+.bg-product{
+  background-color: #f2f2f2;
+  height: 215px;
+}
+
+.pointer {
   cursor: pointer;
 }

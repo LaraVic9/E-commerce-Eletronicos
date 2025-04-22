@@ -99,31 +99,37 @@
       "id": "16dd"
     }
   ],
-  "categories": [
-    {
-      "id": "1",
-      "name": "Headphone",
-      "image": "https://cdn-icons-png.flaticon.com/512/727/727240.png"
-    },
-    {
-      "id": "3634",
-      "name": "Celular",
-      "image": "https://cdn-icons-png.flaticon.com/512/747/747376.png"
-    },
-    {
-      "id": "e88f",
-      "name": "Perifericos",
-      "image": "https://cdn-icons-png.flaticon.com/512/2210/2210153.png"
-    },
-    {
-      "id": "b72d",
-      "name": "Televisão",
-      "image": "https://cdn-icons-png.flaticon.com/512/809/809042.png"
-    },
-    {
-      "id": "ff74",
-      "name": "Notebook",
-      "image": "https://cdn-icons-png.flaticon.com/512/1039/1039540.png"
-    }
-  ]
+ "categories": [
+  {
+    "id": "1",
+    "name": "Headphone",
+    "image": "https://cdn-icons-png.flaticon.com/512/727/727240.png",
+    "svg": "headphone_svg"
+  },
+  {
+    "id": "3634",
+    "name": "Celular",
+    "image": "https://cdn-icons-png.flaticon.com/512/747/747376.png",
+    "svg": "phone_svg"
+  },
+  {
+    "id": "e88f",
+    "name": "Perifericos",
+    "image": "https://cdn-icons-png.flaticon.com/512/2210/2210153.png",
+    "svg": "mouse_svg"
+  },
+  {
+    "id": "b72d",
+    "name": "Televisão",
+    "image": "https://cdn-icons-png.flaticon.com/512/809/809042.png",
+    "svg": "tv_svg"
+  },
+  {
+    "id": "ff74",
+    "name": "Notebook",
+    "image": "https://cdn-icons-png.flaticon.com/512/1039/1039540.png",
+    "svg": "laptop_svg"
+  }
+]
+
 }

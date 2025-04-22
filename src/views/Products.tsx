@@ -11,8 +11,8 @@ const Products = () => {
   const [newProduct, setNewProduct] = useState('');
   const [newCategory, setNewCategory] = useState<string | ''>('');
   const [newImage, setNewImage] = useState('');
-  const [newPrice, setNewPrice] = useState<number | ''>(''); // Novo estado
-
+  const [newPrice, setNewPrice] = useState<number | ''>(''); 
+  
   const fetchCategories = async () => {
     try {
       const res = await api.get('/categories');
@@ -30,10 +30,9 @@ const Products = () => {
         name: newProduct, 
         categoryId: newCategory, 
         image: newImage, 
-        price: Number(newPrice) // Inclui o preço
+        price: Number(newPrice)
       });
 
-      // Limpa os campos após criação
       setNewProduct('');
       setNewCategory('');
       setNewImage('');
