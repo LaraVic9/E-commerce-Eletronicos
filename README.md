@@ -1,4 +1,4 @@
-#  E-commerce Eletrônico com React + TypeScript
+#  E-commerce de Eletrônicos com React + TypeScript
 
 Este projeto é uma aplicação de e-commerce para venda de produtos eletrônicos, desenvolvida com **React**, **TypeScript** e **JSON Server** para simulação de uma API REST. Possui funcionalidades como listagem de produtos, filtro por nome, categorias e faixa de preço.
 
