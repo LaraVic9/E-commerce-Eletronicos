@@ -37,15 +37,18 @@ npm run dev
 ```
 
 
-### --- AVISO ----
+##  Aviso de Desenvolvimento
 
-Por enquanto apenas as seguintes rotas estao com layout em andamento
-inicial ('\')
-produtos ('\produtos')
+Atualmente, apenas as seguintes rotas possuem **layout em andamento**:
 
-As seguintes rotas tem a funcionalidades, mas nao tem layout pronto:
+- `/` – Página inicial  
+- `/produtos` – Listagem de produtos
 
-adicionar produto ('/produtos/novo')
-editar produto ('/produtos/editar/:id')
-adicionar categoria ('/categorias/novo')
-editar categoria ('/categorias/editar/:id')
+As rotas abaixo **já têm funcionalidades implementadas**, mas ainda **não possuem layout finalizado**:
+
+- `/produtos/novo` – Adicionar produto  
+- `/produtos/editar/:id` – Editar produto  
+- `/categorias/novo` – Adicionar categoria  
+- `/categorias/editar/:id` – Editar categoria
+
+> Este aviso será atualizado conforme os layouts forem sendo finalizados.
