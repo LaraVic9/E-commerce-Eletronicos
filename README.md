@@ -27,6 +27,11 @@ cd EletronicsStore
 
 ```bash
 npm install
+```
+
+### 3. Rode o Projeto
+
+```bash
 npx json-server --watch db.json --port 3001
 npm run dev
 ```
